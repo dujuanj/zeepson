@@ -31,16 +31,66 @@
     <link rel="stylesheet" href="css/elements.css" type="text/css" media="screen">
     <link rel='stylesheet' id='Pacifico-css' href='http//fonts.googleapis.com/css?family=Pacifico&#038;ver=3.4.2'
         type='text/css' media='all' />
-    <link href='http//fonts.googleapis.com/css?family=Source+Sans+Pro:400,900,400italic' rel='stylesheet'
-        type='text/css'>
-    <link
+    <!-- <link href='http//fonts.googleapis.com/css?family=Source+Sans+Pro:400,900,400italic' rel='stylesheet'
+        type='text/css'> -->
+    <!-- <link
         href='http//fonts.googleapis.com/css?family=Open+Sans:400,700italic,600italic,400italic,300italic,800,700,600,300|Open+Sans+Condensed:300,700,300italic|Fredericka+the+Great'
-        rel='stylesheet' type='text/css'>
+        rel='stylesheet' type='text/css'> -->
     <!--[if lt IE 9]>
     <link href='http//fonts.googleapis.com/css?family=Source+Sans+Pro:400,900,400italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/docs.css" type="text/css" media="screen">
     <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
   <![endif]-->
+    <link rel="stylesheet" href="css/keyframes.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/safirst.css">
+    <style>
+        .sf_part2_list strong {
+    display: block;
+    font-style: normal;
+    opacity: 0;
+    font-weight: 400;
+    position: relative;
+    left: -80px;
+}
+.sf_part3 {
+    position: relative;
+}
+.sf_video_play {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0,0,0,.5);
+    top: 0;
+    text-align: center;
+    z-index: 1000;
+    color: #FFF;
+}
+.hiss_header_content {
+    width: 1002px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.sf_part3_content {
+    width: 740px;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    position: relative;
+    top: 50%;
+    margin-top: -140px;
+}
+.sf_part3_content h1 {
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+.sf_part3_content p {
+    color: #FFF;
+    line-height: 40px;
+    font-weight: 300;
+}
+    </style>
 </head>
 
 <body class="home-page stretched">
@@ -118,27 +168,29 @@
 
 
         <!--============================== Slider =================================-->
-        <div class="fullwidthbanner-container">
+        <div class="fullwidthbanner-container" style='height: 1000px;    max-height: 1000px'>
             <div class="shadowdrop"></div>
             <div class="fullwi dthabnner">
                 <ul>
                     <!-- THE 1 SLIDE -->
-                    <li >
+                    <li>
                         <img src="img/sf_001_02.jpg">
                         <div class="sf_title tp-caption lfb" data-x="0" data-y="22" data-speed="1000" data-start="500"
-                        data-easing="easeInOutElastic" style='position: absolute;
+                            data-easing="easeInOutElastic" style='position: absolute;
                         top: 47%;
                         left: 23%;
                         color: #fff;
                         width: 350px;'>
-                                <h1 style='color:#fff;' data-x="0" data-y="22" data-speed="1000" data-start="500" data-easing="easeInOutElastic"> 初柜 / Safirst</h1>
-                                <p>极简设计，智能生活。</p>
-                                <span>远程管理 | 3重解锁  | WIFI链接 | 异动报警</span>
-                                <a href="http://localhost:8080/zplatform-web/web/property/safirst_buy.html" target="">立即购买 &gt;</a>
+                            <h1 style='color:#fff;' data-x="0" data-y="22" data-speed="1000" data-start="500"
+                                data-easing="easeInOutElastic"> 初柜 / Safirst</h1>
+                            <p>极简设计，智能生活。</p>
+                            <span>远程管理 | 3重解锁 | WIFI链接 | 异动报警</span>
+                            <a href="http://localhost:8080/zplatform-web/web/property/safirst_buy.html" target="">立即购买
+                                &gt;</a>
                         </div>
-                        
+
                     </li>
-                   
+
                 </ul>
                 <div class="tp-bannertimer"></div>
             </div>
@@ -147,147 +199,232 @@
         <section id="content">
 
             <div class="container">
-                <div class="row">
-                    <article class="span3">
-                        <div class="title">
-                            <h4 class="indent-1">Features</h4>
-                        </div>
-                        <div class="img-border">
-                            <div class="img-slidewrap">
-                                <ul class="img-slidecontrol">
-                                    <li><a href="#imgslider" class="next"><i
-                                                class="icon-chevron-right icon-white"></i></a></li>
-                                    <li><a href="#imgslider" class="prev"><i
-                                                class="icon-chevron-left icon-white"></i></a></li>
-                                </ul>
-                                <ul class="img-slider" id="imgslider">
-                                    <li class="img-slide"> <img src="img/page1-img2.jpg" alt="" />
-                                        <ul class="team-social">
-                                            <li class="twitter-team"><a href="#">Twitter</a></li>
-                                            <li class="facebook-team"><a href="#">Facebook</a></li>
-                                            <li class="dribbble-team"><a href="#">Dribbble</a></li>
-                                            <li class="skype-team"><a href="#">Skype</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="img-slide"> <img src="img/page1-img3.jpg" alt="" />
-                                        <ul class="team-social">
-                                            <li class="twitter-team"><a href="#">Twitter</a></li>
-                                            <li class="facebook-team"><a href="#">Facebook</a></li>
-                                            <li class="dribbble-team"><a href="#">Dribbble</a></li>
-                                            <li class="skype-team"><a href="#">Skype</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="img-slide"> <img src="img/page1-img4.jpg" alt="" />
-                                        <ul class="team-social">
-                                            <li class="twitter-team"><a href="#">Twitter</a></li>
-                                            <li class="facebook-team"><a href="#">Facebook</a></li>
-                                            <li class="dribbble-team"><a href="#">Dribbble</a></li>
-                                            <li class="skype-team"><a href="#">Skype</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
+                <div class="row clearfix sf_part2 animate_p1">
+                    <ul class="holder" style='margin-top:40px;'>
+                        <!-- 1 -->
+                        <li class="span4" data-id="id-1" data-type="business" style='text-align: center'>
+                            <div class="sf_part2_list">
+                                <strong class="delay01   center">昼夜监控</strong>
+                                <p>
+                                    <img src="img/sf_002_03.jpg" alt="">
+                                </p>
+                                <span>
+                                    内置HISS云服务，帮助你昼夜监控柜体状况，成为你24小时强力后援</span>
                             </div>
-                        </div>
-                        <ul class="list-feature">
-                            <li><a href="#">Quisque diam lorem sectetuer adipiscing</a></li>
-                            <li><a href="#">Scelerisque ipsum auctor vitae, pede</a></li>
-                            <li><a href="#">Lacinia dictum elementum velit fermentum</a></li>
-                            <li><a href="#">Donec in velit vel ipsum auctor pulvinar</a></li>
-                            <li><a href="#">Scelerisque ipsum auctor vitae, pede</a></li>
-                            <li><a href="#">Sictum elementum velit fermentum</a></li>
-                        </ul>
-                    </article>
-                    <article class="span3">
-                        <div class="title">
-                            <h4 class="indent-1">Latest news</h4>
-                        </div>
-                        <ul class="list-blog">
-                            <li>
-                                <div class="overlow post-holder-sm extra">
-                                    <div class="date"> <span class="day">14</span> <span class="month">March</span>
-                                    </div>
-                                    <div class="date-1"> <span>Seuis labore et dolore</span></div>
-                                    <p>Eiusmod tempor labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation
-                                        ullamco.</p>
-                                    <a class="btn-3 btn" href="#">Read more</a>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="overlow post-holder-sm extra">
-                                    <div class="date"> <span class="day">14</span> <span class="month">March</span>
-                                    </div>
-                                    <div class="date-1"> <span>Seuis labore et dolore</span></div>
-                                    <p>Eiusmod tempor labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation
-                                        ullamco.</p>
-                                    <a class="btn-3 btn" href="#">Read more</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </article>
-                    <article class="span6">
-                        <div class="title">
-                            <h4 class="indent-1">What We Offers</h4>
-                        </div>
-                        <div id="accordion" class="shadow-large"> <a> <span>Success Is Fully Translation
-                                    Ready!</span></a>
-                            <div class="accordion-wrapper">
-                                <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque
-                                    laudantium, totam rem
-                                    aperiam, eaque ipsa quae ab illo inventore. </p>
-                                <p>adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore
-                                    magnam aliquam
-                                    quaerat voluptatem.</p>
+
+                        </li>
+                        <!-- 2 -->
+                        <li class="span4" data-id="id-2" data-type="graphics" style='text-align: center'>
+                            <div class="sf_part2_list">
+                                <strong class="delay02 ">移动报警</strong>
+                                <p>
+                                    <img src="img/sf_003.jpg" alt="">
+                                </p>
+                                <span>
+                                    受到异常冲击、移动、倾斜，柜体都将通过客户端通知用户。</span>
                             </div>
-                            <a><span>Amazing Page Builder!</span></a>
-                            <div class="accordion-wrapper">
-                                <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                    doloremque laudantium,
-                                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
-                                    beatae vitae dicta
-                                    sunt explicabo. </p>
-                                <p>adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore
-                                    magnam aliquam
-                                    quaerat voluptatem.</p>
+
+                        </li>
+                        <!-- 3 -->
+                        <li class="span4" data-id="id-3" data-type="business" style='text-align: center'>
+                            <div class="sf_part2_list">
+                                <strong class="delay03 ">远程控制</strong>
+                                <p>
+                                    <img src="img/sf_004.jpg" alt="">
+                                </p>
+                                <span>
+                                    会上网的 Safirst初柜，让你通过联网无论何时何地，都能远程控制 Safirst初柜。</span>
                             </div>
-                            <a><span>Unlimited Number of Sliders</span></a>
-                            <div class="accordion-wrapper">
-                                <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                    doloremque laudantium,
-                                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
-                                    beatae vitae dicta
-                                    sunt explicabo. </p>
-                            </div>
-                            <a><span>Unlimited Accent Colors</span></a>
-                            <div class="accordion-wrapper">
-                                <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                    doloremque laudantium,
-                                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
-                                    beatae vitae dicta
-                                    sunt explicabo. </p>
-                            </div>
-                        </div>
-                    </article>
+
+                        </li>
+
+                    </ul>
                 </div>
-                <!-- info box -->
-                <div class="row">
-                    <div class="span12">
-                        <div class="info-box shadow-large">
-                            <div class="info-box-inner">
-                                <div class="info-content">
-                                    <h4>Give us a chance and we will prove our efficiency!</h4>
-                                    <p>Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Fusce
-                                        suscipit. </p>
-                                </div>
-                                <a style="float: right;" class="button medium yellow" href="#">Leta work together!</a>
-                                <div class="clearfix"></div>
-                            </div>
+            </div>
+        </section>
+        <!-- sf_part3 -->
+        <div class="sf_part3">
+                <div class="sf_video img_fontsize">
+                     <video src="http://o-website.oss-cn-shanghai.aliyuncs.com/osite/safirst-video.mp4" autoplay="autoplay" loop="loop" type=""></video>
+                </div>
+                <div class="sf_video_play">
+                    <div class="hiss_header_content">
+                        <div class="sf_part3_content">
+                            <h1>智慧核心，一目了然</h1>
+                            <p>
+                                Safirst初柜 使用方便，入手即可使用。柜体顶部的控制面板是整个Safirst初柜 的智慧核心，单键加上高敏指纹模块，帮助你完成设置和功能操作。欢迎使用会上网、会报警的 Safirst初柜。</p>
+                            <!-- <span>
+                                <a href="#">
+                                    观看Safirst影片
+                                    <span></span>
+                                </a>
+                            </span> -->
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        <!-- sf_part4 -->
+        <div class="sf_part4 animate_p2">
+                <div class="hiss_header_content">
+                    <div class="sf-part4_content">
+                        <div class="sf_part4_title">
+                            <h1>前沿设计，只为初心</h1>
+                            <p>
+                                </p><h3>彩色版本需单独定制</h3>
+                            <p></p>
+                            <p>
+                                至始至终我们的设计理念未变，只为带给你更好、更简便的用户体验。Safirst初柜 摒弃传统柜子繁复的设计元素，将互联网连接、HISS安防系统 与 智能芯片，全部融入到小巧的柜体中。</p>
+                            <span>
+                                <a href="safirst.design.html">
+                                    了解 Safirst初柜 设计 &gt;</a>
+                            </span>
+                        </div>
+                        <div class="sf_part4_img img_fontsize ">
+                            <img src="img/sf_006.png" alt="">
+                        </div>
+                        <div class="sf_part4_info animate_p3">
+                            <div class="sf_part4_mess delay01 ">
+                                <p>3.0 <sub>毫米</sub></p>
+                                <span>门板厚度</span>
+                            </div>
+                            <div class="sf_part4_mess delay02 ">
+                                <p>1.5 <sub>毫米</sub></p>
+                                <span>柜体壁厚</span>
+                            </div>
+                            <div class="sf_part4_mess delay03 ">
+                                <p>29.1 <sub>升</sub></p>
+                                <span>柜体容积</span>
+                            </div>
+                            <div class="sf_part4_mess delay04 ">
+                                <p>10.8 <sub>千克</sub></p>
+                                <span>柜体重量</span>
+                            </div>
+                            <div class="clearfix">	</div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        <!-- sf_part5 -->
+        <div class="sf_part5" style='position:relative'>
+                <div class=" img_fontsize">
+                        <div class="fullwidthbanner-container" style='overflow: visible'>
+                                <div class="shadowdrop"></div>
+                                <div class="fullwidthabnner" style='max-height: 830px;'>
+                                    <ul class="sf_part5_list">
+                        <li data-transition="fade" data-slotamount="7" data-masterspeed="0"  ><img src="img/summ_001.jpg" alt=""></li>
+                        <li  data-transition="fade" data-slotamount="10" data-masterspeed="0"><img src="img/summ_002.jpg" alt=""></li>
+                        <li data-transition="fade" data-slotamount="10" data-masterspeed="300"><img src="img/summ_003.jpg" alt=""></li>
+                        <li data-transition="fade" data-slotamount="10" data-masterspeed="300"><img src="img/summ_004.jpg" alt=""></li>
+                        <li data-transition="fade" data-slotamount="10" data-masterspeed="300"><img src="img/summ_005.jpg" alt=""></li>
+                        <li data-transition="fade" data-slotamount="10" data-masterspeed="300"><img src="img/summ_006.jpg" alt=""></li>
+                        <div class="clearfix" style="display: none;"></div>
+                    </ul>
+                                </div>    
+                        </div>
+                    
+                    <!-- <ul class="color_list">
+                    <li class="colorAll color01"><i></i></li>
+                    <li class="colorAll color02"><i></i></li>
+                    <li class="colorAll color03 on"><i></i></li>
+                    <li class="colorAll color04"><i></i></li>
+                    <li class="colorAll color05"><i></i></li>
+                    <li class="colorAll color06"><i></i></li>
+                    <div class="clearfix"></div>
+                </ul> -->
+                </div>
+                <div class="sf_part5_title" style='z-index: 1000000000000'>
+                    <h1>百变搭配，多彩人生</h1>
+                    <p>
+                        除了精辟的设计风格，Safirst初柜 更是拥有众多颜色搭配，配合不同家装风格。Safirst初柜 不单单只是一台智能保管柜，更是一件家私。</p>
+                </div>
+            </div>  
+        <!-- sf_part6 -->
+        <div class="sf_part6 animate_p4 animate_p101" style='margin-top:160px;'>
+                <div class="overHidden">
+                    <div class="figure_bg img_fontsize" style="transform: translateY(76px) scale(1.2);">
+                    </div>
+                </div>
+                <div class="sf_part6_title">
+                    <h1>超强适应力</h1>
+                    <p>
+                        Safirst初柜 的体积精巧，适合个人藏品及重要文件收纳。方便置于桌面，轻易融合在家居环境之中，柜体用料上低碳环保，降低对健康、环境的不良影响。</p>
+                </div>
+            </div>   
+        <!-- sf_part7 -->
+        <div class="sf_part7">
+                <div class="hiss_header_content ">
+                    <div class="sf_part7_bg img_fontsize fr">
+                        <img src="img/Screen.jpg" alt="">
+                    </div>
+                    <div class="sf_part7_info fl">
+                        <h1>远程遥控<br>
+                        双系统支持</h1>
+                        <p>
+                            Safirst初柜 融入最新的 HISS云技术，通过随身客户端实现远程控制。HISS APP更支持IOS、安卓双系统，满足你更多的需求。</p>
+                        <a href="safirst_function.html">了解  Safirst初柜 功能 &gt;</a>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        <!-- sf_part8 -->
+        <div class="sf_part8">
+                <div class="sf_part8_img img_fontsize">
+                    <img src="img/sf_010_02.jpg" alt="">
+                </div>
+                <div class="OSF_part8_title">
+                    <h1>轻轻一点，实现更多</h1>
+                    <p>
+                        表面看上来 Safirst初柜 只是一个柜子，实际上它融合了HISS众多智能安全技术，无论是联网功能，还是信息反馈、远程控制，都是为了尽力实现高能效。</p>
+                </div>
+                <div class="small_img_list">
+                    <ul>
+                        <li>
+                            <img src="img/OSF_part8_002.png" alt="">
+                            <p>WIFI连接</p>
+                        </li>
+                        <li>
+                            <img src="img/OSF_part8_003.png" alt="">
+                            <p>指纹解锁</p>
+                        </li>
+                        <li>
+                            <img src="img/OSF_part8_004.png" alt="">
+                            <p>IOS支持</p>
+                        </li>
+                        <li>
+                            <img src="img/OSF_part8_005.png" alt="">
+                            <p>安卓支持</p>
+                        </li>
+                        <li>
+                            <img src="img/OSF_part8_006.png" alt="">
+                            <p>微信控制</p>
+                        </li>
+                        <li>
+                            <img src="img/OSF_part8_008.png" alt="">
+                            <p>低电保护</p>
+                        </li>
+                        <div class="clearfix"></div>
+                    </ul>
+                </div>
+            </div> 
+        <!-- sf_part9 -->
+        <div class="sf_part9">
+                <div class="D_part10 ">
+                    <div class="disney_part8">
+                        <div class="hiss_header_content">
+                            <div class="disney_img">
+                                <img src="img/sf_011.png">
+                            </div>
+                            <div class="next_contect">
+                                <span>下一步</span>
+                                <p>只如初见</p>
+                                <h2>「我所收藏的是心中的回忆。」</h2>
+                                <aside>了解  Safirst初柜 的设计。</aside>
+                                <a href="safirst.design.html">下一章：设计 &gt;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>                
         <!--==============================footer=================================-->
         <footer>
             <div id="footer" class="section-3 footer-dark">
@@ -406,6 +543,8 @@
     <!-- Metro Style  -->
     <script type="text/javascript" src="js/boxgrid.js"></script>
     <script type="text/javascript" src="demo/switcher.js"></script>
+    <script type='text/javascript' src='js/scroll02.js'></script>
+    <script type='text/javascript' src='js/scroll01.js'></script>
     <!-- Elastislider  -->
     <script>
         jQuery("#carousel-blog").elastislide({
@@ -465,7 +604,7 @@
         jQuery(document).ready(function () {
             api = jQuery('.fullwidthabnner').revolution(
                 {
-                    delay: 9000,
+                    delay: 2000,
                     startheight: 370,
                     startwidth: 960,
 
@@ -480,7 +619,7 @@
                     navigationStyle: "round",				//round,square,navbar
 
                     touchenabled: "on",						// Enable Swipe Function : on/off
-                    onHoverStop: "on",						// Stop Banner Timet at Hover on Slide on/off
+                    onHoverStop: "off",						// Stop Banner Timet at Hover on Slide on/off
 
                     navOffsetHorizontal: 0,
                     navOffsetVertical: 20,
@@ -545,6 +684,7 @@
             });
         });
     </script>
+    
 
 </body>
 

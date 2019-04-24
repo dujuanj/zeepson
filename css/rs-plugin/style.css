@@ -30,9 +30,9 @@ website:   	http//www.themepunch.com
 
 .banner-simple { width:960px; height:500px; position:relative; overflow:hidden; }
 
-.fullwidthbanner-container { border-bottom: 1px solid #eee; width:100% !important; position:relative; padding:0; max-height: 720px !important; overflow:hidden; }
+.fullwidthbanner-container { border-bottom: 1px solid #eee; width:100% !important; position:relative; padding:0; max-height: 720px; overflow:hidden; }
 
-.fullwidthbanner-container .fullwidthabnner { width:100% !important; max-height:720px !important; position:relative; }
+.fullwidthbanner-container .fullwidthabnner { width:100% !important; max-height:720px ; position:relative; }
 
 #video_link img { max-width: 100%; }
  @media only screen and (min-width: 768px) and (max-width: 959px) {
