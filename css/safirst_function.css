@@ -250,3 +250,10 @@ video {
     margin-top: 32px;
     line-height: 40px;
 }
+.sff_part7 .f_part10 {
+    background: #EEEEEE;
+}
+.f_part10 {
+    height: 400px;
+    position: relative;
+}
