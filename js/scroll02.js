@@ -24,11 +24,11 @@ var win_height = $(window).height()*1;
 		funHeight(".animate_p3" , ".sfd_part6 .sfd_top img");
 		funHeight(".animate_p3" , ".sfd_part6 .sfd_bottom  img");
 		funHeight(".animate_p3" , ".sfd_part6 .sfd_part6_title");
-		// funHeight(".animate_p4" , ".sfd_part6 .sfd_part6_title");
-		// funHeight(".animate_p4" , ".sfd_part2  video");
-		if($(".sfd_part2  video").hasClass("on")){
-			document.getElementById('myVideo').play();
-		}
+		funHeight(".animate_p4" , ".sfd_part6 .sfd_part6_title");
+		funHeight(".animate_p4" , ".sfd_part2  video");
+		// if($(".sfd_part2  video").hasClass("on")){
+		// 	document.getElementById('myVideo').play();
+		// }
 
 		funHeight(".animate_p1" , ".sff_part3 .sff_part3_bg");
 		funHeight(".animate_p1" ,".sff_part3 .sff_part3_bg_US");

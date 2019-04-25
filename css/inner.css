@@ -8,7 +8,7 @@
 .clear { clear: both; line-height: 0; font-size: 0; overflow: hidden; height: 0; width: 100%; margin: 0; padding: 0; display: block; }
 
 /*------ header ------- */
-header { background: none repeat scroll 0 0 #262626; padding: 0; z-index: 50; }
+header { background: none repeat scroll 0 0 #262626; padding: 0; z-index: 1150; }
 
 /* navbar */
 .row-nav-search { background: url(../img/tail-nav.png) repeat-x 0 0 #191919; margin-bottom: 20px; margin-top: 20px; }
@@ -23,7 +23,7 @@ header { background: none repeat scroll 0 0 #262626; padding: 0; z-index: 50; }
 
 .navbar_ .container { position: relative; }
 
-.nav-collapse.nav-collapse_ { z-index: 10; height: auto !important; overflow: visible; }
+.nav-collapse.nav-collapse_ { z-index: 1000000000; height: auto !important; overflow: visible; }
 
 .nav-collapse_ .nav { margin: 0; }
 
@@ -35,15 +35,15 @@ header { background: none repeat scroll 0 0 #262626; padding: 0; z-index: 50; }
 
 .nav-collapse_ .nav li a { font-family: 'MuseoSlab500Regular', arial, helvetica, sans-serif; text-shadow: none; text-decoration: none; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; }
 
-.nav-collapse_ .nav > li > a { color: #ccc; margin: 0; padding: 6px 14px 6px 12px; display: block; background: none; position: relative; z-index: 20; font-size: 16px; font-weight: normal; line-height: 18px; background: none repeat scroll 0 0 transparent; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
+.nav-collapse_ .nav > li > a { color: #ccc; margin: 0; padding: 6px 14px 6px 12px; display: block; background: none; position: relative; z-index: 1120; font-size: 16px; font-weight: normal; line-height: 18px; background: none repeat scroll 0 0 transparent; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
 
 .nav-collapse_ .nav > li.sfHover > a, .nav-collapse_ .nav > li.sfHover > a:hover, .nav-collapse_ .nav > li > a:hover, .nav-collapse_ .nav > li.active > a, .nav-collapse_ .nav > li.active > a:hover { color: #169FE6; }
 
 .sub-menu > a { position: relative; }
 
-.nav-collapse_ .nav ul { border-top: 3px solid #169FE6; position: absolute; display: none; width: 161px; left: 0px; top: 47px; list-style: none; zoom: 1; z-index: 100; background: none repeat scroll 0 0 #FFFFFF; padding: 0; margin: 0; -webkit-box-shadow: 0 1px 3px #CCCCCC; -moz-box-shadow: 0 1px 3px #CCCCCC; box-shadow: 0 1px 3px #CCCCCC; }
+.nav-collapse_ .nav ul { border-top: 3px solid #169FE6; position: absolute; display: none; width: 161px; left: 0px; top: 47px; list-style: none; zoom: 1; z-index: 1100; background: none repeat scroll 0 0 #FFFFFF; padding: 0; margin: 0; -webkit-box-shadow: 0 1px 3px #CCCCCC; -moz-box-shadow: 0 1px 3px #CCCCCC; box-shadow: 0 1px 3px #CCCCCC; }
 
-.nav-collapse_ .nav ul li ul { border-top: 3px solid #169FE6; position: absolute; display: none; width: 161px; left: 161px; top: 0; list-style: none; zoom: 1; z-index: 100; background: none repeat scroll 0 0 #FFFFFF; padding: 0; margin: 0; -webkit-box-shadow: 0 1px 3px #CCCCCC; -moz-box-shadow: 0 1px 3px #CCCCCC; box-shadow: 0 1px 3px #CCCCCC; }
+.nav-collapse_ .nav ul li ul { border-top: 3px solid #169FE6; position: absolute; display: none; width: 161px; left: 161px; top: 0; list-style: none; zoom: 1; z-index: 1100; background: none repeat scroll 0 0 #FFFFFF; padding: 0; margin: 0; -webkit-box-shadow: 0 1px 3px #CCCCCC; -moz-box-shadow: 0 1px 3px #CCCCCC; box-shadow: 0 1px 3px #CCCCCC; }
 
 .nav-collapse_ .nav ul li { background: url(../img/border-ul-li.png) repeat-x 0 0; }
 

@@ -153,13 +153,13 @@
                 </div>
             </header>
         </div>
-        <div class="breadcrumb-wrapper" style='height:44px;'>
+        <div id='leBox_info' class="breadcrumb-wrapper" style='height:44px;'>
             <div class="shadowdrop"></div>
             <div class="container">
                 <h2>Safirst/初柜</h2>
                 <ul class="breadcrumb fright">
-                    <li><a href="#">概述</a> <span class="divider">/</span></li>
-                    <li class="active">设计</li>
+                    <li><a href="safirst.html">概述</a> <span class="divider">/</span></li>
+                    <li class="active"> <a href='safirst.design.html'>设计</a> </li>
                     <li class="active">功能</li>
                     <li class="active">技术规格</li>
                 </ul>
@@ -245,7 +245,7 @@
         <!-- sf_part3 -->
         <div class="sf_part3">
                 <div class="sf_video img_fontsize">
-                     <video src="http://o-website.oss-cn-shanghai.aliyuncs.com/osite/safirst-video.mp4" autoplay="autoplay" loop="loop" type=""></video>
+                     <video src="img/safirst-video.mp4" autoplay="autoplay" loop="loop" type="" controls></video>
                 </div>
                 <div class="sf_video_play">
                     <div class="hiss_header_content">
@@ -332,7 +332,7 @@
                     <div class="clearfix"></div>
                 </ul> -->
                 </div>
-                <div class="sf_part5_title" style='z-index: 1000000000000'>
+                <div class="sf_part5_title" style='z-index: 100'>
                     <h1>百变搭配，多彩人生</h1>
                     <p>
                         除了精辟的设计风格，Safirst初柜 更是拥有众多颜色搭配，配合不同家装风格。Safirst初柜 不单单只是一台智能保管柜，更是一件家私。</p>
@@ -632,9 +632,7 @@
                 });
         });
 
-        function loadVideo() {
-            jQuery("#video_link").html('iframe src="http//player.vimeo.com/video/32001208?title=0&amp;byline=0&amp;portrait=0" width="460" height="259"></iframe>');
-        }
+       
     </script>
     <script type="text/javascript">
         // initialise plugins
@@ -683,6 +681,21 @@
                 jQuery('body').css('overflow-x', 'hidden');
             });
         });
+        var F_high;
+	$(window).scroll(function(){
+		F_high = $(window).scrollTop();
+		if(F_high > 70){
+			$("#leBox_info").addClass("on");
+			$(".Experience_Center_menu").addClass("on")
+			$(".leBox_fixed").addClass('on')
+			$(".my_order_nav").addClass("on")
+		}else{
+			$("#leBox_info").removeClass("on")
+			$(".Experience_Center_menu").removeClass("on")
+			$(".leBox_fixed").removeClass("on")
+			$(".my_order_nav").removeClass("on")
+		}
+	})
     </script>
     
 
